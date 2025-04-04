@@ -1,4 +1,4 @@
-name: Lint Code Base
+name: Lint Code Base with flake8
 
 on:
     push:
