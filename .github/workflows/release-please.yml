@@ -17,3 +17,4 @@ jobs:
         with:
           release-type: python  # or python, rust, go, etc.
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
+          debug: true
