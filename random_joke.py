@@ -1,5 +1,6 @@
 import requests
 
+
 def get_random_joke():
     """
     Fetches a random joke from the Official Joke API.
@@ -15,6 +16,7 @@ def get_random_joke():
         return f"{joke_data['setup']} - {joke_data['punchline']}"
     except requests.exceptions.RequestException as e:
         return f"Failed to fetch a joke: {e}"
+
 
 if __name__ == "__main__":
     print(get_random_joke())

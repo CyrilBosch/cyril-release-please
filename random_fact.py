@@ -1,5 +1,6 @@
 import requests
 
+
 def get_random_fact():
     """
     Fetches a random interesting fact from the Useless Facts API.
@@ -15,6 +16,7 @@ def get_random_fact():
         return fact_data['text']
     except requests.exceptions.RequestException as e:
         return f"Failed to fetch a fact: {e}"
+
 
 if __name__ == "__main__":
     print(get_random_fact())
