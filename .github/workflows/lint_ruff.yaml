@@ -1,0 +1,19 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+    LintWithRuff:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Lint with Ruff
+              uses: astral-sh/ruff-action@v3
