@@ -3,15 +3,10 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "your-package-name"
+name = "hello"
 version = "0.1.0"
-description = "A short description of your package"
+description = "Your package description"
 authors = [
     { name="Your Name", email="you@example.com" }
 ]
-readme = "README.md"
-license = { text = "MIT" }
-dependencies = [
-    "numpy",
-    "requests"
-]
+dependencies = []
