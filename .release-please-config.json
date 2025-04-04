@@ -1,0 +1,11 @@
+{
+    "release-type": "python",
+    "packages": {
+      ".": {
+        "package-name": "your-package-name",
+        "path": ".",
+        "version-file": "pyproject.toml"
+      }
+    }
+  }
+  
