@@ -2,7 +2,7 @@
     "release-type": "python",
     "packages": {
       ".": {
-        "package-name": "your-package-name",
+        "package-name": "hello",
         "path": ".",
         "version-file": "pyproject.toml"
       }
